@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한승민의 자기소개 페이지</title>
+    <!--
+        영역을 분할하는 태그 : idv
+        새로운 영역 태그 : header, footer, nav, main ,aside, section, article
+        (↑시맨틱 태그) -> 시맨틱 마크업
+        -->
+    <style>
+        * { margin : 0;
+            padding : 0;
+            box-sizing: border-box;
+            text-align: center;
+            }
+       #app { width: 1100px; margin : 0 auto; }
+       header { display: flex;
+                justify-content : center;
+                align-items : center;
+                text-align: center;
+                height : 200px;
+                font-size: 40px;
+                font-style : italic; /*글꼴 바꾸는 법 물어보기*/ 
+                 }
+        main {  min-height :100px ;
+                border : 3px solid black;
+                display : flex;
+                justify-content: center;
+                align-items: center;
+                background-color: black;
+                border-radius: 10px;
+
+                }
+        main a { display : inline-block;
+                 text-decoration: none;
+                 text-align: center;
+                 width: 200px;
+                 height : 60px;
+                 line-height: 60px;
+                 color : white;
+                 font-size: 20px ;
+                 transition : background-color 0.5s ;
+                 border-radius: 8px;}
+        main a:hover { background-color: gray ;}
+
+    </style>
+
+</head>
+<body>
+    <div id="app">
+        <header>무엇이 궁금한가 휴먼?</header>
+        <main>  
+                <a href="hsm.private information.html">간단 개인 정보</a>
+                <a href="hsm.hobby.html">취미</a>
+                <a href="#">내용없음</a>
+                <a href="hsm.last.html">마무리</a>          
+        </main>
+        <footer>
+            
+        </footer>
+    </div>
+</body>
+</html>
