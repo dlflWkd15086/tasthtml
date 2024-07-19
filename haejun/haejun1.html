@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이해준</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        * { 
+            margin: 0 ; 
+            padding: 0;
+            box-sizing: border-box;
+            }
+        nav ul {list-style: none;
+            background-color: black;
+            height: 50px;
+            text-align: center;  
+            }
+        nav li {
+            text-align: center;
+            background-color: black;
+            display: inline-block;
+            width: 80px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 10px;
+            margin-left: -6px;
+            }
+        nav a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            width: 80px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 10px;
+            transition: background-color 4s;
+            }
+        nav li:hover {
+           
+            font-weight: bold;
+            text-decoration: underline;
+            }
+            #app {
+            width: 1000px;
+            margin: 0 auto;
+        }
+        header, nav, footer {
+            height: 50px;
+            border: 1px solid black;
+            text-align: center;
+            line-height: 50px;
+        }
+        header, footer {
+            background-color: cadetblue;
+        }
+        aside {
+            width: 150px;
+            height: 800px;
+            line-height: 800px;
+            text-align: center;
+            background-color: gray;
+            float: left;
+            border: 1px solid black;
+        }
+        section {
+            width: 700px;
+            height: 800px;
+            background-color: white;
+            float: left;
+            border: 1px solid black;
+            overflow: scroll;
+        }
+        main {
+            overflow: hidden;
+        }
+        table {border: 1px solid black;width: 100%;
+        }
+        td {border: 1px solid black;}
+        table, td {border-collapse: collapse;
+            height: 100px;
+           font-size: 1.2em;
+        }
+        #a {
+            width: 20%;
+            text-align: center;
+        }
+        #b {
+            width: 80%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <header><h1>이해준</h1></header>
+        <nav>
+         <ul>
+            <li>
+                <a href="/haejun/haejun1.html"><i class="fa-solid fa-house"></i></a>
+            </li>
+            <li>
+                <a href="/haejun/haejun2.html">애완동물</a>
+            </li>
+            <li>
+                <a href="/haejun/haejun3.html">하는게임</a>
+            </li>
+        </ul>
+    </nav>
+        </nav>
+        <main>
+            <aside> </aside>
+            <section>
+               <table>
+                <tbody>
+                    <tr>
+                        <td id="a">이름</td>
+                        <td id="b">이해준</td>
+                    </tr>
+                    <tr>
+                        <td id="a">인천</td>
+                        <td id="b">2001년생</td>
+                    </tr>
+                    <tr>
+                        <td id="a">성별</td>
+                        <td id="b">남자</td>
+                    </tr>
+                    <tr>
+                        <td id="a">생일</td>
+                        <td id="b">12월 13일</td>
+                    </tr>
+                    <tr>
+                        <td id="a">좋아하는 것</td>
+                        <td id="b">게임, 음식, 동물</td>
+                    </tr>
+                    <tr>
+                        <td id="a">성격</td>
+                        <td id="b">잘모르겠음</td>
+                    </tr>
+                </tbody>
+               </table>
+          </section>
+            <aside> </aside>
+        </main>
+        <footer>copytight &copy;2024 ICIA</footer>   
+    </div>
+</body>
+</html>
